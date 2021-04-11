@@ -38,7 +38,7 @@ public class AddEmp extends HttpServlet {
 
 		if (new EmpDao().addEmployee(eb)) {
 
-			response.sendRedirect("addemp");
+			response.sendRedirect("getemp");
 
 		} else {
 
